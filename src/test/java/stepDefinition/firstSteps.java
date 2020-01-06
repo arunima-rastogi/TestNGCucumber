@@ -9,4 +9,8 @@ public class firstSteps {
 		System.out.println(number);
 	}
 
+	@Given("I share name of {string}")
+	public void exampleStringSteps(String name) {
+		System.out.println(name);
+	}
 }

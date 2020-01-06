@@ -33,9 +33,12 @@ import org.testng.annotations.BeforeSuite;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
-@CucumberOptions(plugin = { "pretty", "html:target/html",
-		"json:cucumber.json" }, strict = true, monochrome = true, features = "src/test/resources/features/first.feature", glue = "stepDefinition", tags = {
-				"@FirstTag" })
+@CucumberOptions(plugin = { "pretty", "html:target/html", "json:cucumber.json" },
+				 strict = true,
+				 monochrome = true,
+				 features = "src/test/resources/features/",
+				 glue = "stepDefinition",
+				 tags = {"~@FirstTags","~@SecondTags"})
 public class CucumberRunner extends AbstractTestNGCucumberTests {
 
 	public static Properties config = null;

@@ -1,0 +1,65 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-01-06T11:35:04.174Z",
+        "line": 4,
+        "name": "Cucumber expressions example",
+        "description": "",
+        "id": "sample-testng-feature;cucumber-expressions-example",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 663400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "As a User i search for 45 text",
+            "match": {
+              "arguments": [
+                {
+                  "val": "45",
+                  "offset": 23
+                }
+              ],
+              "location": "firstSteps.exampleIntSteps(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 66600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "As a User i search for 60 text",
+            "match": {
+              "arguments": [
+                {
+                  "val": "60",
+                  "offset": 23
+                }
+              ],
+              "location": "firstSteps.exampleIntSteps(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FirstTag"
+          }
+        ]
+      }
+    ],
+    "name": "Sample testng feature",
+    "description": "",
+    "id": "sample-testng-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/first.feature",
+    "tags": []
+  }
+]

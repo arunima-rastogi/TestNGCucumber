@@ -38,7 +38,7 @@ import io.cucumber.testng.CucumberOptions;
 				 monochrome = true,
 				 features = "src/test/resources/features/",
 				 glue = "stepDefinition",
-				 tags = {"@CustomTypes"})
+				 tags = {"@CSVReader"})
 public class CucumberRunner extends AbstractTestNGCucumberTests {
 
 	public static Properties config = null;
